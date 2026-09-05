@@ -4,4 +4,10 @@ def welcome():
 
 if __name__ == "__main__":
     welcome()
-    
+
+# project - 2 
+age = int(input("enter your age: "))
+if age>=18:
+    print(" your are eligible sir ")
+else:
+    print( " you are not eligible for this")
