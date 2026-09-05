@@ -1,2 +1,21 @@
+# main.py
+def welcome():
+    print("Welcome to my Python Mini-Project!")
 
+if __name__ == "__main__":
+    welcome()
+
+# project - 2 
+age = int(input("enter your age: "))
+if age>=18:
+    print(" your are eligible sir ")
+else:
+    print( " you are not eligible for this")
+
+name = input("enter your name: ")
+if name == "rehan":
+    print(" i love you ❤️")
+else:
+    print("get the fu** out of here ")
+    name
 
