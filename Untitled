@@ -17,5 +17,7 @@ if name == "rehan":
     print(" i love you ❤️")
 else:
     print("get the fu** out of here ")
-    name
+a = 3=2
+print(a+5)
+
 
