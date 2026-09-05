@@ -25,6 +25,23 @@ if name == "kael":
     print(" hellow sir how are you doin ? ")
 else:
     print(" get the hell out of here ")
+
+    # main.py
     
+import datetime
+
+def display_status():
+    user = "Rehan"
+    now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    print("=" * 40)
+    print(f"  SYSTEM LOG - DEVELOPER: {user.upper()}")
+    print(f"  TIMESTAMP: {now}")
+    print("  STATUS: Git isolation test successful!")
+    print("=" * 40)
+
+if __name__ == "__main__":
+    display_status()
+
 
 
